@@ -19,9 +19,13 @@ public class DbConnect {
      private String password = "";
      private String dBase = "addressbook";
      private String url = "jdbc:mysql://localhost/"+dBase+"?user="+userName+"&password="+password;
-    
+    private static DbConnect dbConnect = new DbConnect();
      Connection con=null ;
      //Statement st=null;
+     private DbConnect(){}
+     public static DbConnect getInstance(){
+         return dbConnect;
+     }
     public Connection getConnect(){
         try{
             Class.forName(driver);

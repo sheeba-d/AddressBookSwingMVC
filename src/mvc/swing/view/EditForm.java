@@ -150,7 +150,7 @@ public class EditForm extends javax.swing.JFrame {
         u.setName(name);
         u.setMob(mob);
         u.setEmail(email);
-        ctrl.editUser(u,uname);
+        ctrl.editUser(u,mPage,uname);
         this.setVisible(false);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
