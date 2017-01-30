@@ -24,6 +24,9 @@ public class Controller {
         this.mPage = mPage;
         contactIntf = new ContactImpl();
     }
+    public static void loadMain(){
+        new MainPage().setVisible(true);
+    }
   public void loadUsers(){
       contactIntf.loadUsers(mPage);
      }
