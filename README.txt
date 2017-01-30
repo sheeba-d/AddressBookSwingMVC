@@ -17,6 +17,6 @@ To run the project follow the instructions given below:
 
 3.Resolve the jar file issues if any.(mysql-connector-java.jar)
 
-4.Change the connection string values(url,username,password) according to your database configuration in 'dbconfig.properties' file  if needed.
+4.Change the values(url,username,password) according to your database configuration in 'dbconfig.properties' file  if needed.
 
 5.Always make sure that database server is started before executing the project.
